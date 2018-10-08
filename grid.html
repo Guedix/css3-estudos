@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Começo de um layout</title>
+        
+        <style>
+            html, body {
+                margin:0;
+                padding:0;
+            }
+
+            body {
+                background:rgb(229,229,229);
+            }
+
+            article, aside, section, header, footer, nav {
+                display:block;
+            }
+
+            main {
+                  width: 960px;
+                  height: 1000px;
+                  margin: 0 auto;
+                  background: #fff;
+
+            }
+
+            header {
+                   width: 960px;
+                   height: 110px;
+                   background-color: steelblue;
+            }
+
+            nav {
+                  width: 960px;
+                  height: 40px;
+                  background-color: aquamarine;
+            }
+
+            .conteudo {
+                  width: 630px;
+                  height: 350px;
+                  background-color: #f0a55f;
+                  margin-top: 10px;
+                  float: left;
+                  margin-bottom: 10px;
+            }
+
+            .apoio {
+                  width: 310px;
+                  height: 350px;
+                  background-color: #686464;
+                  margin-top: 10px;
+                  float: right;
+            }
+
+            footer {
+                     width: 960px;
+                     height: 40px;
+                     background-color: #747070;
+                     clear: both;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <header></header>
+            <nav></nav>
+
+            <section class="conteudo"></section>
+            <section class="apoio"></section>
+
+            <footer>Endereco, telefone e outras informacoes</footer>
+        </main>
+    </body>
+</html>
